@@ -19,8 +19,9 @@ div {
 
 #div2 { 
 	z-index: 5;
+	background: url("https://chezrepublic.files.wordpress.com/2016/02/out-of-the-box.jpg") no-repeat;
+	object-fit: fill;
 
-	background: #AAA; 
 }
 
 #div3 { 
@@ -30,10 +31,11 @@ div {
 
 #div4 { 
 	z-index: 5;
-	background: #444; 
+	object-fit: cover;
+	/*background: #444; */
 }
 
-img {
+.animation {
 	z-index: 9;
 	vertical-align: middle;
 	justify-content: center;
