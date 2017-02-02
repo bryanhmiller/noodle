@@ -1,0 +1,48 @@
+html, body { 
+
+	height: 100%; 
+	padding: 0; 
+	margin: 0; 
+}
+
+div { 
+	z-index: 8;
+	width: 50%; 
+	height: 50%; 
+	float: left; 
+}
+
+#div1 { 
+	z-index: 5;
+	background: #DDD; 
+}
+
+#div2 { 
+	z-index: 5;
+
+	background: #AAA; 
+}
+
+#div3 { 
+	z-index: 5;
+	background: #777; 
+}
+
+#div4 { 
+	z-index: 5;
+	background: #444; 
+}
+
+img {
+	z-index: 9;
+	vertical-align: middle;
+	justify-content: center;
+	position: relative;
+	top: -75%;
+	left: 38%;
+	position:;
+	border-radius: 100%;
+	width: 20em;
+	height: 20em;
+
+}
