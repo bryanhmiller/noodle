@@ -17,11 +17,19 @@ div {
 	background: #DDD; 
 }
 
+#div1 a img {
+	min-width: 100%;
+	max-height: 100%;
+}
+
 #div2 { 
 	z-index: 5;
-	background: url("https://chezrepublic.files.wordpress.com/2016/02/out-of-the-box.jpg") no-repeat;
-	object-fit: fill;
+	background: #111;
+}
 
+#div2 a img {
+	min-width: 100%;
+	max-height: 100%;
 }
 
 #div3 { 
@@ -29,10 +37,19 @@ div {
 	background: #777; 
 }
 
+#div3 a img {
+	min-width: 100%;
+	max-height: 100%;
+}
+
 #div4 { 
 	z-index: 5;
-	object-fit: cover;
 	/*background: #444; */
+}
+
+#div4 a img {
+	min-width: 100%;
+	max-height: 100%
 }
 
 .animation {
